@@ -11,7 +11,7 @@ app = FastAPI()
 
 # ✅ Only difference — point to AIPipe instead of OpenAI
 client = OpenAI(
-    api_key=os.getenv("AIPIPE_TOKEN"),
+    api_key=os.getenv("OPENAI_API_KEY"),
     base_url="https://aipipe.org/openai/v1"
 )
 
